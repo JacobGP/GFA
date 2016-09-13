@@ -1,0 +1,1 @@
+"./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_adc12_07.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd" -l"libc.a" 

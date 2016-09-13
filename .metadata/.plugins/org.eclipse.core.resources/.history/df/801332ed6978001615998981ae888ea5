@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+<configuration XML_version="1.2" id="Elprotronic FlashPro430 adapter_0">
+        <instance XML_version="1.2" desc="Elprotronic FlashPro430 adapter_0" href="connections/Elprotronic_FlashPro430_connection.xml" id="Elprotronic FlashPro430 adapter_0" xml="Elprotronic_FlashPro430_connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Elprotronic FlashPro430 adapter_0">
+            <instance XML_version="1.2" href="drivers/Elprotronic_FlashPro430_emu.xml" id="drivers" xml="Elprotronic_FlashPro430_emu.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="MSP430F2618_0" href="devices/MSP430F2618.xml" id="MSP430F2618_0" xml="MSP430F2618.xml" xmlpath="devices"/>
+            </platform>
+        </connection>
+    </configuration>
+<configuration XML_version="1.2" id="UARTConnection_0">
+        <instance XML_version="1.2" desc="UARTConnection_0" href="connections/uart_connection.xml" id="UARTConnection_0" xml="uart_connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="UARTConnection_0">
+            <instance XML_version="1.2" href="drivers/gti_uart_driver.xml" id="drivers" xml="gti_uart_driver.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="ComPort" href="cpus/MSP430.xml" id="ComPort" xml="MSP430.xml" xmlpath="cpus"/>
+                <cpu HW_revision="1.0" XML_version="1.2" description="MSP430 CPU" id="ComPort" isa="MSP430">
+                    <property Type="stringfield" Value="COM3" id="COM Port"/>
+                </cpu>
+                <instance XML_version="1.2" desc="ComPort_0" href="cpus/MSP430.xml" id="ComPort_0" xml="MSP430.xml" xmlpath="cpus"/>
+                <cpu HW_revision="1.0" XML_version="1.2" description="MSP430 CPU" id="ComPort_0" isa="MSP430">
+                    <property Type="stringfield" Value="COM3" id="COM Port"/>
+                </cpu>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>

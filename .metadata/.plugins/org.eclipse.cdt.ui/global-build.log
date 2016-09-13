@@ -1,0 +1,886 @@
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+"../MSP430x261x_adc12_02.c", line 86: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430x261x_adc12_02.c", line 79: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430x261x_adc12_02.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z -m"Test.map" --heap_size=80 --stack_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+"../MSP430x261x_adc12_02.c", line 86: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430x261x_adc12_02.c", line 79: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430x261x_adc12_02.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building file: ../MSP430x261x_clks.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_clks.pp"  "../MSP430x261x_clks.c"
+'Finished building: ../MSP430x261x_clks.c'
+' '
+'Building file: ../MSP430x261x_dma_04.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_04.pp"  "../MSP430x261x_dma_04.c"
+'Finished building: ../MSP430x261x_dma_04.c'
+' '
+'Building file: ../MSP430x261x_dma_05.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_05.pp"  "../MSP430x261x_dma_05.c"
+'Finished building: ../MSP430x261x_dma_05.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal -z -m"Test.map" --heap_size=80 --stack_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --warn_sections --diag_wrap=off --display_error_number --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+"../MSP430x261x_adc12_02.c", line 86: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430x261x_adc12_02.c", line 79: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430x261x_adc12_02.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --diag_warning=225 --diag_wrap=off --display_error_number --printf_support=minimal -z -m"Test.map" --heap_size=80 --stack_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --warn_sections --diag_wrap=off --display_error_number --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "Test.out"  "Test.hex" 
+DEL /F "MSP430x261x_adc12_01.pp" "MSP430x261x_adc12_02.pp" "MSP430x261x_clks.pp" "MSP430x261x_dma_04.pp" "MSP430x261x_dma_05.pp" "main.pp" 
+DEL /F "MSP430x261x_adc12_01.obj" "MSP430x261x_adc12_02.obj" "MSP430x261x_clks.obj" "MSP430x261x_dma_04.obj" "MSP430x261x_dma_05.obj" "main.obj" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "Test.out"  "Test.hex" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\Test.out
+DEL /F "MSP430x261x_adc12_01.pp" "MSP430x261x_adc12_02.pp" "MSP430x261x_clks.pp" "MSP430x261x_dma_04.pp" "MSP430x261x_dma_05.pp" "main.pp" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\MSP430x261x_adc12_01.pp
+DEL /F "MSP430x261x_adc12_01.obj" "MSP430x261x_adc12_02.obj" "MSP430x261x_clks.obj" "MSP430x261x_dma_04.obj" "MSP430x261x_dma_05.obj" "main.obj" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\MSP430x261x_adc12_01.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_01.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_01.pp"  "../MSP430x261x_adc12_01.c"
+'Finished building: ../MSP430x261x_adc12_01.c'
+' '
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+"../MSP430x261x_adc12_02.c", line 86: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430x261x_adc12_02.c", line 79: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430x261x_adc12_02.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building file: ../MSP430x261x_clks.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_clks.pp"  "../MSP430x261x_clks.c"
+'Finished building: ../MSP430x261x_clks.c'
+' '
+'Building file: ../MSP430x261x_dma_04.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_04.pp"  "../MSP430x261x_dma_04.c"
+'Finished building: ../MSP430x261x_dma_04.c'
+' '
+'Building file: ../MSP430x261x_dma_05.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_05.pp"  "../MSP430x261x_dma_05.c"
+'Finished building: ../MSP430x261x_dma_05.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "Test.out"  "Test.hex" 
+DEL /F "MSP430x261x_adc12_01.pp" "MSP430x261x_adc12_02.pp" "MSP430x261x_clks.pp" "MSP430x261x_dma_04.pp" "MSP430x261x_dma_05.pp" "main.pp" 
+DEL /F "MSP430x261x_adc12_01.obj" "MSP430x261x_adc12_02.obj" "MSP430x261x_clks.obj" "MSP430x261x_dma_04.obj" "MSP430x261x_dma_05.obj" "main.obj" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "Test.out"  "Test.hex" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\Test.out
+DEL /F "MSP430x261x_adc12_01.pp" "MSP430x261x_adc12_02.pp" "MSP430x261x_clks.pp" "MSP430x261x_dma_04.pp" "MSP430x261x_dma_05.pp" "main.pp" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\MSP430x261x_adc12_01.pp
+DEL /F "MSP430x261x_adc12_01.obj" "MSP430x261x_adc12_02.obj" "MSP430x261x_clks.obj" "MSP430x261x_dma_04.obj" "MSP430x261x_dma_05.obj" "main.obj" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\MSP430x261x_adc12_01.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_01.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_01.pp"  "../MSP430x261x_adc12_01.c"
+'Finished building: ../MSP430x261x_adc12_01.c'
+' '
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+"../MSP430x261x_adc12_02.c", line 86: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430x261x_adc12_02.c", line 79: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430x261x_adc12_02.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building file: ../MSP430x261x_clks.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_clks.pp"  "../MSP430x261x_clks.c"
+'Finished building: ../MSP430x261x_clks.c'
+' '
+'Building file: ../MSP430x261x_dma_04.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_04.pp"  "../MSP430x261x_dma_04.c"
+'Finished building: ../MSP430x261x_dma_04.c'
+' '
+'Building file: ../MSP430x261x_dma_05.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_05.pp"  "../MSP430x261x_dma_05.c"
+'Finished building: ../MSP430x261x_dma_05.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/hex430" --memwidth=8 --order=MS --romwidth=16 --ti_txt -o "Test.txt"  "Test.out" 
+Translating to TI-TXT format...
+   "Test.out" .text:_isr ==> .text:_isr
+   "Test.out" $fill000 ==> $fill000
+   "Test.out" RESERVED0 ==> RESERVED0
+   "Test.out" RESERVED1 ==> RESERVED1
+   "Test.out" RESERVED2 ==> RESERVED2
+   "Test.out" RESERVED3 ==> RESERVED3
+   "Test.out" RESERVED4 ==> RESERVED4
+   "Test.out" RESERVED5 ==> RESERVED5
+   "Test.out" RESERVED6 ==> RESERVED6
+   "Test.out" RESERVED7 ==> RESERVED7
+   "Test.out" RESERVED8 ==> RESERVED8
+   "Test.out" RESERVED9 ==> RESERVED9
+   "Test.out" RESERVED10 ==> RESERVED10
+   "Test.out" RESERVED11 ==> RESERVED11
+   "Test.out" RESERVED12 ==> RESERVED12
+   "Test.out" RESERVED13 ==> RESERVED13
+   "Test.out" DAC12 ==> DAC12
+   "Test.out" DMA ==> DMA
+   "Test.out" USCIAB1TX ==> USCIAB1TX
+   "Test.out" USCIAB1RX ==> USCIAB1RX
+   "Test.out" PORT1 ==> PORT1
+   "Test.out" PORT2 ==> PORT2
+   "Test.out" RESERVED20 ==> RESERVED20
+   "Test.out" ADC12 ==> ADC12
+   "Test.out" USCIAB0TX ==> USCIAB0TX
+   "Test.out" USCIAB0RX ==> USCIAB0RX
+   "Test.out" TIMERA1 ==> TIMERA1
+   "Test.out" TIMERA0 ==> TIMERA0
+   "Test.out" WDT ==> WDT
+   "Test.out" COMPARATORA ==> COMPARATORA
+   "Test.out" TIMERB1 ==> TIMERB1
+   "Test.out" TIMERB0 ==> TIMERB0
+   "Test.out" NMI ==> NMI
+   "Test.out" .reset ==> .reset
+   "Test.out" .text ==> .text
+'Finished building: Test.txt'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_01.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_01.pp"  "../MSP430x261x_adc12_01.c"
+'Finished building: ../MSP430x261x_adc12_01.c'
+' '
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+"../MSP430x261x_adc12_02.c", line 86: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430x261x_adc12_02.c", line 79: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430x261x_adc12_02.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building file: ../MSP430x261x_clks.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_clks.pp"  "../MSP430x261x_clks.c"
+'Finished building: ../MSP430x261x_clks.c'
+' '
+'Building file: ../MSP430x261x_dma_04.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_04.pp"  "../MSP430x261x_dma_04.c"
+'Finished building: ../MSP430x261x_dma_04.c'
+' '
+'Building file: ../MSP430x261x_dma_05.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_05.pp"  "../MSP430x261x_dma_05.c"
+'Finished building: ../MSP430x261x_dma_05.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/hex430" --memwidth=8 --order=MS --romwidth=16 --ti_txt -o "Test.txt"  "Test.out" 
+Translating to TI-TXT format...
+   "Test.out" .text:_isr ==> .text:_isr
+   "Test.out" $fill000 ==> $fill000
+   "Test.out" RESERVED0 ==> RESERVED0
+   "Test.out" RESERVED1 ==> RESERVED1
+   "Test.out" RESERVED2 ==> RESERVED2
+   "Test.out" RESERVED3 ==> RESERVED3
+   "Test.out" RESERVED4 ==> RESERVED4
+   "Test.out" RESERVED5 ==> RESERVED5
+   "Test.out" RESERVED6 ==> RESERVED6
+   "Test.out" RESERVED7 ==> RESERVED7
+   "Test.out" RESERVED8 ==> RESERVED8
+   "Test.out" RESERVED9 ==> RESERVED9
+   "Test.out" RESERVED10 ==> RESERVED10
+   "Test.out" RESERVED11 ==> RESERVED11
+   "Test.out" RESERVED12 ==> RESERVED12
+   "Test.out" RESERVED13 ==> RESERVED13
+   "Test.out" DAC12 ==> DAC12
+   "Test.out" DMA ==> DMA
+   "Test.out" USCIAB1TX ==> USCIAB1TX
+   "Test.out" USCIAB1RX ==> USCIAB1RX
+   "Test.out" PORT1 ==> PORT1
+   "Test.out" PORT2 ==> PORT2
+   "Test.out" RESERVED20 ==> RESERVED20
+   "Test.out" ADC12 ==> ADC12
+   "Test.out" USCIAB0TX ==> USCIAB0TX
+   "Test.out" USCIAB0RX ==> USCIAB0RX
+   "Test.out" TIMERA1 ==> TIMERA1
+   "Test.out" TIMERA0 ==> TIMERA0
+   "Test.out" WDT ==> WDT
+   "Test.out" COMPARATORA ==> COMPARATORA
+   "Test.out" TIMERB1 ==> TIMERB1
+   "Test.out" TIMERB0 ==> TIMERB0
+   "Test.out" NMI ==> NMI
+   "Test.out" .reset ==> .reset
+   "Test.out" .text ==> .text
+'Finished building: Test.txt'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "Test.out"  "Test.txt" 
+DEL /F "MSP430x261x_adc12_01.pp" "MSP430x261x_adc12_02.pp" "MSP430x261x_clks.pp" "MSP430x261x_dma_04.pp" "MSP430x261x_dma_05.pp" "main.pp" 
+DEL /F "MSP430x261x_adc12_01.obj" "MSP430x261x_adc12_02.obj" "MSP430x261x_clks.obj" "MSP430x261x_dma_04.obj" "MSP430x261x_dma_05.obj" "main.obj" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "Test.out"  "Test.txt" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\Test.out
+DEL /F "MSP430x261x_adc12_01.pp" "MSP430x261x_adc12_02.pp" "MSP430x261x_clks.pp" "MSP430x261x_dma_04.pp" "MSP430x261x_dma_05.pp" "main.pp" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\MSP430x261x_adc12_01.pp
+DEL /F "MSP430x261x_adc12_01.obj" "MSP430x261x_adc12_02.obj" "MSP430x261x_clks.obj" "MSP430x261x_dma_04.obj" "MSP430x261x_dma_05.obj" "main.obj" 
+Could Not Find C:\Users\Ayayron\workspace_v6_1\Test\Debug\MSP430x261x_adc12_01.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_01.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_01.pp"  "../MSP430x261x_adc12_01.c"
+'Finished building: ../MSP430x261x_adc12_01.c'
+' '
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+"../MSP430x261x_adc12_02.c", line 86: remark #1528-D: (ULP 3.1) Detected flag polling using ADC12IFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../MSP430x261x_adc12_02.c", line 79: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../MSP430x261x_adc12_02.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building file: ../MSP430x261x_clks.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_clks.pp"  "../MSP430x261x_clks.c"
+'Finished building: ../MSP430x261x_clks.c'
+' '
+'Building file: ../MSP430x261x_dma_04.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_04.pp"  "../MSP430x261x_dma_04.c"
+'Finished building: ../MSP430x261x_dma_04.c'
+' '
+'Building file: ../MSP430x261x_dma_05.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_dma_05.pp"  "../MSP430x261x_dma_05.c"
+'Finished building: ../MSP430x261x_dma_05.c'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/hex430" --memwidth=8 --order=MS --romwidth=16 --ti_txt -o "Test.txt"  "Test.out" 
+Translating to TI-TXT format...
+   "Test.out" .text:_isr ==> .text:_isr
+   "Test.out" $fill000 ==> $fill000
+   "Test.out" RESERVED0 ==> RESERVED0
+   "Test.out" RESERVED1 ==> RESERVED1
+   "Test.out" RESERVED2 ==> RESERVED2
+   "Test.out" RESERVED3 ==> RESERVED3
+   "Test.out" RESERVED4 ==> RESERVED4
+   "Test.out" RESERVED5 ==> RESERVED5
+   "Test.out" RESERVED6 ==> RESERVED6
+   "Test.out" RESERVED7 ==> RESERVED7
+   "Test.out" RESERVED8 ==> RESERVED8
+   "Test.out" RESERVED9 ==> RESERVED9
+   "Test.out" RESERVED10 ==> RESERVED10
+   "Test.out" RESERVED11 ==> RESERVED11
+   "Test.out" RESERVED12 ==> RESERVED12
+   "Test.out" RESERVED13 ==> RESERVED13
+   "Test.out" DAC12 ==> DAC12
+   "Test.out" DMA ==> DMA
+   "Test.out" USCIAB1TX ==> USCIAB1TX
+   "Test.out" USCIAB1RX ==> USCIAB1RX
+   "Test.out" PORT1 ==> PORT1
+   "Test.out" PORT2 ==> PORT2
+   "Test.out" RESERVED20 ==> RESERVED20
+   "Test.out" ADC12 ==> ADC12
+   "Test.out" USCIAB0TX ==> USCIAB0TX
+   "Test.out" USCIAB0RX ==> USCIAB0RX
+   "Test.out" TIMERA1 ==> TIMERA1
+   "Test.out" TIMERA0 ==> TIMERA0
+   "Test.out" WDT ==> WDT
+   "Test.out" COMPARATORA ==> COMPARATORA
+   "Test.out" TIMERB1 ==> TIMERB1
+   "Test.out" TIMERB0 ==> TIMERB0
+   "Test.out" NMI ==> NMI
+   "Test.out" .reset ==> .reset
+   "Test.out" .text ==> .text
+'Finished building: Test.txt'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_07.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_07.pp"  "../MSP430x261x_adc12_07.c"
+"../MSP430x261x_adc12_07.c", line 105: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+'Finished building: ../MSP430x261x_adc12_07.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_adc12_07.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+error #10056: symbol "main" redefined: first defined in "./MSP430x261x_adc12_02.obj"; redefined in "./MSP430x261x_adc12_07.obj"
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+error #10010: errors encountered during linking; "Test.out" not built
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+
+>> Compilation failure
+gmake: *** [Test.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_adc12_07.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+error #10056: symbol "main" redefined: first defined in "./MSP430x261x_adc12_02.obj"; redefined in "./MSP430x261x_adc12_07.obj"
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+error #10010: errors encountered during linking; "Test.out" not built
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+
+>> Compilation failure
+gmake: *** [Test.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_adc12_07.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+error #10056: symbol "main" redefined: first defined in "./MSP430x261x_adc12_02.obj"; redefined in "./MSP430x261x_adc12_07.obj"
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+error #10010: errors encountered during linking; "Test.out" not built
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+
+>> Compilation failure
+gmake: *** [Test.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../MSP430x261x_adc12_02.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="MSP430x261x_adc12_02.pp"  "../MSP430x261x_adc12_02.c"
+'Finished building: ../MSP430x261x_adc12_02.c'
+' '
+'Building target: Test.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/cl430" -vmspx --abi=eabi --data_model=restricted --use_hw_mpy=16 --advice:power=all -g --define=__MSP430F2618__ --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=minimal -z -m"Test.map" --stack_size=80 --heap_size=80 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Test_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "Test.out" "./MSP430x261x_adc12_01.obj" "./MSP430x261x_adc12_02.obj" "./MSP430x261x_adc12_07.obj" "./MSP430x261x_clks.obj" "./MSP430x261x_dma_04.obj" "./MSP430x261x_dma_05.obj" "./main.obj" "../lnk_msp430f2618.cmd"  -l"libc.a" 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: Test.out'
+' '
+'Invoking: MSP430 Hex Utility'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.5/bin/hex430" --memwidth=8 --order=MS --romwidth=16 --ti_txt -o "Test.txt"  "Test.out" 
+Translating to TI-TXT format...
+   "Test.out" .text:_isr ==> .text:_isr
+   "Test.out" .cinit ==> .cinit
+   "Test.out" $fill000 ==> $fill000
+   "Test.out" RESERVED0 ==> RESERVED0
+   "Test.out" RESERVED1 ==> RESERVED1
+   "Test.out" RESERVED2 ==> RESERVED2
+   "Test.out" RESERVED3 ==> RESERVED3
+   "Test.out" RESERVED4 ==> RESERVED4
+   "Test.out" RESERVED5 ==> RESERVED5
+   "Test.out" RESERVED6 ==> RESERVED6
+   "Test.out" RESERVED7 ==> RESERVED7
+   "Test.out" RESERVED8 ==> RESERVED8
+   "Test.out" RESERVED9 ==> RESERVED9
+   "Test.out" RESERVED10 ==> RESERVED10
+   "Test.out" RESERVED11 ==> RESERVED11
+   "Test.out" RESERVED12 ==> RESERVED12
+   "Test.out" RESERVED13 ==> RESERVED13
+   "Test.out" DAC12 ==> DAC12
+   "Test.out" DMA ==> DMA
+   "Test.out" USCIAB1TX ==> USCIAB1TX
+   "Test.out" USCIAB1RX ==> USCIAB1RX
+   "Test.out" PORT1 ==> PORT1
+   "Test.out" PORT2 ==> PORT2
+   "Test.out" RESERVED20 ==> RESERVED20
+   "Test.out" ADC12 ==> ADC12
+   "Test.out" USCIAB0TX ==> USCIAB0TX
+   "Test.out" USCIAB0RX ==> USCIAB0RX
+   "Test.out" TIMERA1 ==> TIMERA1
+   "Test.out" TIMERA0 ==> TIMERA0
+   "Test.out" WDT ==> WDT
+   "Test.out" COMPARATORA ==> COMPARATORA
+   "Test.out" TIMERB1 ==> TIMERB1
+   "Test.out" TIMERB0 ==> TIMERB0
+   "Test.out" NMI ==> NMI
+   "Test.out" .reset ==> .reset
+   "Test.out" .text ==> .text
+'Finished building: Test.txt'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
