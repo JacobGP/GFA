@@ -1,0 +1,2 @@
+# GFA
+Grid Friendly Appliance
