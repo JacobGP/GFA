@@ -1,0 +1,8 @@
+cd ~/gitrepos/eecs-perks
+git pull
+---do your work
+git add [files you changed/created] //please do not include binaries/libraries/configs and so on 
+git commit -m "[your work makes progress on issue #[whatever]]" 
+  ---or
+git commit -m "[your work closes issue #[whatever]]" 
+git push
