@@ -32,7 +32,7 @@ int TxCharCount = 0, TxReadIndex = 0, TxWriteIndex = 0;
 int RxWriteIndex = 0, RxReadIndex = 0;
 char TxBuffer[SER_BUFFER_SIZE], RxBuffer[SER_BUFFER_SIZE];
 int ISR_Flag = 0;
-tm_t clock_Time = {0, 0, 12, 7, 11, 2016, 1};	//(sec, min, hr, day, mon, year,0);
+tm_t clock_Time = {30, 59, 23, 7, 12, 2016, 1};	//(sec, min, hr, day, mon, year,0);
 
 int offset[6] = {0};
 int buffer0[100];
@@ -45,6 +45,12 @@ long frequency[100];
 int count = 0;
 int buf_num = 4;
 int tick[1] = {1};
+
+#define UART_PRINTF  // routes printf to I/O pins instead of console
+#ifdef UART_PRINTF
+int fputc(int _c, register FILE * _fp);
+int fputs(const char *_ptr, register FILE *_fp);
+#endif
 
 /****************************************************************************/
 /*  Main function                                                           */
@@ -97,7 +103,7 @@ void main(void)
     	PrintString(message);
 //    	PrintString("\r\n");
     	clock_Time.tm_sec += 1;
-//    	printf("Hello World\r\n");
+    	printf("Hello World\r\n");
     }
   }  // while(1)
 }  // main()
@@ -657,6 +663,27 @@ __interrupt void DMA_ISR(void)
   _bic_SR_register_on_exit(LPM0_bits);
 }
 
+#ifdef UART_PRINTF
+int fputc(int _c, register FILE *_fp)
+{
+	while (!(UC1IFG & UCA1TXIFG));                // USCI_A0 TX buffer ready?
+	UCA1TXBUF = (unsigned char) _c;
+	return (unsigned char)(_c);
+}
+
+int fputs(const char *_ptr, register FILE *_fp)
+{
+	unsigned int i, len;
+
+	len = strlen(_ptr);
+	for (i=0; i<len; i++)
+	{
+		while (!(UC1IFG & UCA1TXIFG));                // USCI_A0 TX buffer ready?
+		UCA1TXBUF = (unsigned char) _ptr[i];
+	}
+	return len;
+}
+#endif
 /*#pragma vector=ADC12_VECTOR
 __interrupt void ADC12ISR (void)
 {

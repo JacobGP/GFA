@@ -155,7 +155,7 @@ uint32 tm2time(tm_t *tm)
 	adjust(&tm->tm_sec,  60, &tm->tm_min);		// put sec  in range 0-59
 	adjust(&tm->tm_min,  60, &tm->tm_hour);		// put min  in range 0-59
 	adjust(&tm->tm_hour, 24, &tm->tm_mday);		// put hour in range 0-23
-	adjust(&tm->tm_mon,  12, &tm->tm_year);		// put mon  in range 0-11
+	adjust(&tm->tm_mon,  13, &tm->tm_year);		// put mon  in range 0-11
 	days = tm->tm_year;
 	days *= 365;								// convert year to days
 	days += leap_days(tm->tm_year, tm->tm_mon);	// add leap days
